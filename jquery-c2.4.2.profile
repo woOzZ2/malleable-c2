@@ -124,6 +124,13 @@ https-certificate {
     set validity "365";
 }
 
+### Code Signing Certificate
+#code-signer {
+    #set keystore "cobaltstrike.jks";
+    #set password "password";
+    #set alias "cobaltstrike";
+#}
+
 ################################################
 ## TCP Beacon
 ################################################
